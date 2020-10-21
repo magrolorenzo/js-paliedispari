@@ -2,26 +2,26 @@
 
 // Palindroma: scrivere una funzione per valutare se una parola è palindroma oppure no
 
-// var parola = prompt('Inserire una parola');
-// var is_palindrome = false;
-//
-// function palindromo(word){
-//     var reverse_word = "";
-//     // Inserisce le lettere della parola paramentro nella stringa d'appoggio partendo dall'ultimo carattere
-//     for (var i = (word.length - 1); i >= 0 ; i--) {
-//         reverse_word += word[i];
-//         console.log(reverse_word);
-//     }
-//
-//     if (reverse_word == word){
-//         return true;
-//     } else {
-//         return false;
-//     }
-// }
-//
-// is_palindrome = palindromo(parola);
-// console.log(is_palindrome);
+var parola = prompt('Inserire una parola');
+var is_palindrome = false;
+
+function palindromo(word){
+    var reverse_word = "";
+    // Inserisce le lettere della parola paramentro nella stringa d'appoggio partendo dall'ultimo carattere
+    for (var i = (word.length - 1); i >= 0 ; i--) {
+        reverse_word += word[i];
+        console.log(reverse_word);
+    }
+
+    if (reverse_word == word){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+is_palindrome = palindromo(parola);
+console.log(is_palindrome);
 
 
 // **************** PARI E DISPARI
